@@ -1,0 +1,28 @@
+{
+  "name": "mwdelaney/project-cpt",
+  "description": "Project custom post type.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "custom post type",
+    "project"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Qtd_dev"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.2",
+    "jjgrainger/posttypes": "^2.0",
+    "composer/installers": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "QTD\\ProjectCPT\\": "app/"
+    }
+  }
+}
